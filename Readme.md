@@ -99,6 +99,7 @@ You will need to configure the application with the AWS S3 storage credentials. 
 
 To configure the application -
 * Make a copy of sample-application.properties.  Rename this copy to application.properties
+* Open the application.properties in a text editor
 * Enter the S3 bucket's name for the **cloud.aws.s3.bucket** property
 * Enter your access key for the **cloud.aws.credentials.accessKey** property
 * Enter your secret key for the **cloud.aws.credentials.secretKey** property
@@ -155,6 +156,8 @@ Breaking this command down -
 * ``-Dserver.port=80`` tells the application server to listen on the default HTTP port 80 for incoming connections
 * ``&`` at the end of the command runs the command in the background.
 * The logging output is redirected to ``nohup.out``.  This file will contain information for debugging.
+
+Use the Public DNS of your EC2 instance as the HTTP URL to access the application.  For example, if your Public DNS is ec2-22-333-44-555.compute-1.amazonaws.com then your HTTP URL will be http://ec2-22-333-44-555.compute-1.amazonaws.com
 
 When updating the application in the future, you will need to stop the process.  You will need the Process ID (PID) to stop the process.
 
