@@ -7,8 +7,8 @@ As an instructor, I want an email that contains links to your services so that I
 * I should receive a single email per team
 * The email should contain the name of the individuals on your team.
 * The email should contain a link to your Github project
-* Your Github project should contain a fork of this weeks repository
-* The email should contain a public url to the image gallery application running on a AWS EC2 VM.
+* Your Github project should contain a fork of the image gallery application
+* The email should contain a public url to the image gallery application running on a AWS EC2 instance.
 * I should be able to use the image gallery application to upload an image.
 
 # Forking Repository
@@ -31,10 +31,10 @@ https://github.com/
 
 If you are new to Github, the sign up process has a link to help familiarize yourself with Github.
 
-## The cmu-mis-iccfb Repository
-This class has a Github project where we will be sharing code.  For this assignment, fork the *intro-cloud-computing* repository.
+## The cmu-mis-iccfb project
+This class has a Github project where we will be sharing code.  For the duration of the class, we will be adding code to a basic image gallery application.  For the image gallery application's repository for your work -
 
-https://github.com/cmu-mis-iccfb/intro-cloud-computing
+https://github.com/cmu-mis-iccfb/Image-Gallery-Application
 
 You should use the ``git clone`` command to download the forked repository to your local computer.
 
@@ -87,7 +87,7 @@ You will need to create an access key and a secret key for the services.  To cre
 On the Security Credentials page, expand **Access Keys (Access Key ID and Secret Access Key)** and create a new access key.  You should download the credentials file.  The credentials file will be a CSV file that contains the access key and security key.
 
 # Image Gallery Application
-Throughout this course, we will be adding cloud services to a basic image gallery web application.  The base application is contained in the "application" folder in your forked repository.
+Throughout this course, we will be adding cloud services to a basic image gallery web application.  The application's code is contained in your forked Image-Gallery-Application repository from the class' Github project.
 
 ## Java Development Kit (JDK) 8
 The application's code uses some features found in JDK 8. Download the JDK
