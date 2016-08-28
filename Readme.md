@@ -115,8 +115,8 @@ To configure the application -
 * Make a copy of sample-application.properties.  Rename this copy to application.properties
 * Open the application.properties in a text editor
 * Enter the S3 bucket's name for the **cloud.aws.s3.bucket** property
-* Enter your access key for the **cloud.aws.credentials.accessKey** property
-* Enter your secret key for the **cloud.aws.credentials.secretKey** property
+* Enter your access key for the **cloud.aws.credentials.accessKey** property found in the credentials file
+* Enter your secret key for the **cloud.aws.credentials.secretKey** property found in the credentials file
 * If you selected a region other than US Standard when creating the S3 account, you will need to fill in the **cloud.aws.region** property.  The exact region string you need can be seen in the URL ("region=us-east-1") when logged into the AWS Developer Console
 
 Note, the application.properties file is ignored by Git to avoid accidentally checking in credentials to Github.
