@@ -90,6 +90,11 @@ On the Security Credentials page, expand **Access Keys (Access Key ID and Secret
 # Image Gallery Application
 Throughout this course, we will be adding cloud services to a basic image gallery web application.  The application's code is contained in your forked Image-Gallery-Application repository from the class' Github project.
 
+## Spring Boot
+The image gallery application is built on the very popular Spring Boot framework.
+
+http://projects.spring.io/spring-boot/
+
 ## Java Development Kit (JDK) 8
 The application's code uses some features found in JDK 8. Download the JDK
 
