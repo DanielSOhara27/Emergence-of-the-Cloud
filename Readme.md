@@ -170,7 +170,7 @@ To run the application -
 
 To launch the application, run the following command -
 
-    sudo nohup java -Dserver.port=80 -jar image-share-0.1.0.jar &
+    sudo nohup java -Dserver.port=80 -jar image-gallery-0.1.0.jar &
 
 Breaking this command down -
 * ``nohup`` will keep the process running after you close the SSH session
@@ -178,7 +178,9 @@ Breaking this command down -
 * ``&`` at the end of the command runs the command in the background.
 * The logging output is redirected to ``nohup.out``.  This file will contain information for debugging.
 
-Use the Public DNS of your EC2 instance as the HTTP URL to access the application.  For example, if your Public DNS is ec2-22-333-44-555.compute-1.amazonaws.com then your HTTP URL will be http://ec2-22-333-44-555.compute-1.amazonaws.com
+Use the Public DNS of your EC2 instance as the HTTP URL to access the application.  For example, if your Public DNS is ec2-22-333-44-555.compute-1.amazonaws.com then your HTTP URL will be
+
+http://ec2-22-333-44-555.compute-1.amazonaws.com
 
 When updating the application in the future, you will need to stop the process.  You will need the Process ID (PID) to stop the process.
 
