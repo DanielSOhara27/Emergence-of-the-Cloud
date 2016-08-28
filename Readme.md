@@ -162,6 +162,7 @@ On OSX or Linux, use the pre-existing SCP client.  Follow the file transfer inst
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
 
 To run the application -
+
 1.  Log into your EC2 instance using SSH
 2.  Make an "image-gallery" directory with the following command - ``mkdir image-gallery``
 3.  Use SCP to transfer the application JAR file to the new directory
