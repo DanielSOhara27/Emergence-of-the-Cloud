@@ -143,7 +143,9 @@ You can execute the JAR file using the following command
 
     java -jar ./build/libs/image-gallery-0.1.0.jar
 
-The application should be running at http://localhost:8080/
+The application should be running at
+
+http://localhost:8080/
 
 There are some images in the "application/test-images" folder that you can use to verify your setup.
 
