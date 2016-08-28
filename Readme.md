@@ -128,9 +128,13 @@ https://gradle.org/
 
 The project provides a Gradle wrapper (gradlew).  The Gradle wrapper will download and install the appropriate Gradle version when a command is first executed.
 
-To build the application, run the following Gradle command -
+To build the application, run the following Gradle command at the top level image gallery directory -
 
     gradlew build
+
+If you are on a Linux environment and receive "bash: ./gradlew: Permission denied" error, you will have to add execute permissions via -
+
+    chmod a+x gradlew
 
 The build command will create an executable JAR file that will be found in "application/build/libs".
 
