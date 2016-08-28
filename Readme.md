@@ -1,14 +1,15 @@
 # Homework User Story
 
 ## User Story
-As an instructor, I want an email that contains links to your services so that I can review your setup.
+As an instructor, I want you to host the image gallery application in AWS so you
+can get familiar with services offered by AWS.
 
 ## Acceptance Criteria
-* I should receive a single email per team
-* The email should contain the name of the individuals on your team.
-* The email should contain a link to your Github project
-* Your Github project should contain a fork of the image gallery application
-* The email should contain a public url to the image gallery application running on a AWS EC2 instance.
+* Homework should be submitted via Blackboard and one submission per team
+* Please submit a document that :
+ * Contains the name of the individuals on your team
+ * Contains a link to your image gallery's Github repository
+ * Contains a public URL to the image gallery application running on an AWS EC2 instance.
 * I should be able to use the image gallery application to upload an image.
 
 # Forking Repository
@@ -32,7 +33,7 @@ https://github.com/
 If you are new to Github, the sign up process has a link to help familiarize yourself with Github.
 
 ## The cmu-mis-iccfb project
-This class has a Github project where we will be sharing code.  For the duration of the class, we will be adding code to a basic image gallery application.  For the image gallery application's repository for your work -
+This class has a Github project where we will be sharing code.  For the duration of the class, we will be adding code to a basic image gallery application.  Fork the image gallery application's repository for your work -
 
 https://github.com/cmu-mis-iccfb/Image-Gallery-Application
 
