@@ -86,7 +86,10 @@ You will need to create an access key and a secret key for the services.  To cre
 On the Security Credentials page, expand **Access Keys (Access Key ID and Secret Access Key)** and create a new access key.  You should download the credentials file.  The credentials file will be a CSV file that contains the access key and security key.
 
 # Image Gallery Application
-Throughout this course, we will be adding cloud services to a basic image gallery web application.  The application's code is contained in your forked Image-Gallery-Application repository from the class' Github project.
+Throughout this course, we will be adding cloud services to a basic image gallery web application.  You should have forked the image gallery's Github repository in previous step -
+
+https://github.com/cmu-mis-iccfb/Image-Gallery-Application
+
 
 ## Spring Boot
 The image gallery application is built on the very popular Spring Boot framework.
