@@ -42,9 +42,7 @@ You should use the ``git clone`` command to download the forked repository to yo
 # Setup Cloud Services
 
 ## Amazon Web Services
-We will be using the free services in AWS for this class.  If you already have a standard Amazon account that you use, this account can be used to setup the AWS services.
-
-https://aws.amazon.com/
+We will be using the free services in AWS for this class.  We will be using AWS through CMU's master service agreement with Amazon.
 
 ### EC2
 Launch an Ubuntu Server 14.04 LTS t2.micro EC2 instance that will host the image gallery application.
