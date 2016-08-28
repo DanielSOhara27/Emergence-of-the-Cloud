@@ -86,23 +86,30 @@ You will need to create an access key and a secret key for the services.  To cre
 On the Security Credentials page, expand **Access Keys (Access Key ID and Secret Access Key)** and create a new access key.  You should download the credentials file.  The credentials file will be a CSV file that contains the access key and security key.
 
 # Image Gallery Application
-Throughout this course, we will be adding cloud services to a basic image gallery web application.  You should have forked the image gallery's Github repository in previous step -
+Throughout this course, we will be adding cloud services to a basic image gallery web application.  You should have forked and cloned the image gallery's Github repository in previous step -
 
 https://github.com/cmu-mis-iccfb/Image-Gallery-Application
 
 
+
 ## Spring Boot
-The image gallery application is built on the very popular Spring Boot framework.
+The image gallery application is built on the very popular Spring Boot framework.  Below is a link to get familiar with the Spring Boot framework -
 
 http://projects.spring.io/spring-boot/
 
 ## Java Development Kit (JDK) 8
-The application's code uses some features found in JDK 8. Download the JDK
+The application's code uses some features found in JDK 8. Download the JDK.  Verify that Java 8 is installed on your personal development machine with the following command -
+
+    java -version
+
+If you have the incorrect version or don't have Java installed, follow the link below -
 
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 ## Configuring the Application
-You will need to configure the application with the AWS S3 storage credentials.  The application is configured via a application.properties file.  You will find a sample-application.properties file under "application/src/main/resources"
+You will need to configure the application with the AWS S3 storage credentials.  The application is configured via a application.properties file.  You will find a sample-application.properties file under
+
+    <cloned_repository>/src/main/resources
 
 To configure the application -
 * Make a copy of sample-application.properties.  Rename this copy to application.properties
