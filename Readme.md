@@ -191,3 +191,22 @@ To find the PID, run the following command -
 The first number printed in the output is the PID.  You can use the ``kill`` command to stop the process -
 
     sudo kill <<PID>>
+
+
+# Preparing for Next Class
+We will be using OpenSSL and Java's Keytool to generate certificates in next week's class.
+If you are using OS X or Linux, OpenSSL should be installed.  You can verify this by
+executing the following command at a terminal prompt -
+
+    openssl version
+
+If you are using Windows or OpenSSL isn't installed, this site contains a list
+of links to download the binaries -
+
+https://wiki.openssl.org/index.php/Binaries
+
+Keytool comes with the Java Development Kit that was downloaded when setting up
+your development environment for the image gallery application.  You can verify
+that keytool is installed by executing the following command at a terminal prompt -
+
+    keytool
